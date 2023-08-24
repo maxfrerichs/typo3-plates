@@ -39,6 +39,13 @@ This will put out the page title in the frontend. Of course, you can use any PHP
 * Caching. While Plates itself does not cache stuff, TYPO3 does. Maybe this can be refined
 * Every Plates-specific feature other than basic rendering.
 
+## What needs to be done before releasing
+* Testing
+* More testing
+* Even more testing
+* Documentation. A lot of documentation.
+* Building some kind of CI/CD pipeline for testing, linting, rendering documentation and releasing
+
 ## Project goals
 Providing a simple, but flexible and easy to use template alternative to Fluid that simplifies stuff for new integrators,
 but also looks not too unfamiliar to those who are used to working with Fluid. Also, integration of well-known concepts like DataProcessor
