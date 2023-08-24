@@ -64,7 +64,6 @@ class PlatesContentObject extends AbstractContentObject
     }
 
     /**
-     * You probably recognize this from TYPO3 frontend extension. Needs to be tested
      * @param array $conf Configuration array
      * @return array the variables to be assigned
      * @throws \InvalidArgumentException
