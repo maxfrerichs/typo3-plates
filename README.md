@@ -30,12 +30,22 @@ This will put out the page title in the frontend. Of course, you can use any PHP
 4. Open the page in your browser and look at the result. You should see the page title in a paragraph tag.
 
 
-## Project goals
-Provide a simple, flexible and easy to use template alternative to Fluid that simplifies stuff for new integrators,
-but also looks not too unfamiliar to those who are used to working with Fluid.
+## What works
+* Basic rendering of templates with Plates
+* Using [dataProcessing and DataProcessor provided by TYPO3](https://docs.typo3.org/m/typo3/reference-typoscript/main/en-us/ContentObjects/Fluidtemplate/DataProcessing.html#dataprocessing)
 
+
+## What does not work
+* Caching. While Plates itself does not cache stuff, TYPO3 does. Maybe this can be refined
+* Every Plates-specific feature other than basic rendering.
+
+## Project goals
+Providing a simple, but flexible and easy to use template alternative to Fluid that simplifies stuff for new integrators,
+but also looks not too unfamiliar to those who are used to working with Fluid. Also, integration of well-known concepts like DataProcessor
+And last but not least: fun and learning new stuff about TYPO3
 ## Contribution
-Just open an issue and I will respond. If you want to contribute, just fork this repository and create a pull request. I will review your contribution, give you feedback.
+Just open an issue and I will respond. If you want to contribute, just fork this repository and create a pull request. I will review your contribution and give you feedback.
+
 
 ## Disclaimer
 This extension is currently a proof-of-concept and is not meant to be used in production. It is not feature-complete. It is not tested. It is not secure. Use it at your own risk.

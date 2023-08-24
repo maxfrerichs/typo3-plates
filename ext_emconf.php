@@ -3,7 +3,6 @@
 declare(strict_types=1);
 defined('TYPO3') or die();
 
-
 $EM_CONF[$_EXTKEY] = [
     'title' => 'TYPO3 Plates integration',
     'description' => 'Integration of Plates template system for TYPO3',
