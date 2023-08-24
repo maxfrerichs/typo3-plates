@@ -17,6 +17,10 @@ class PlatesContentObject extends AbstractContentObject
     ) {
     }
 
+    /**
+     * @param array $conf
+     * @return string
+     */
     public function render($conf = []): string
     {
         $templateRootPath = $this->getTemplateRootPath($conf);
@@ -28,7 +32,7 @@ class PlatesContentObject extends AbstractContentObject
     }
 
     /**
-     * Retunrns
+     * @return Engine
      */
     protected function getView(string $templateRootPath): Engine
     {
@@ -36,7 +40,8 @@ class PlatesContentObject extends AbstractContentObject
     }
 
     /**
-     * @param array<int,mixed> $conf
+     * @param array $conf
+     * @return string
      */
     protected function getTemplateRootPath(array $conf): string
     {
@@ -90,7 +95,7 @@ class PlatesContentObject extends AbstractContentObject
     }
 
     /**
-     * Apply standard wrap to content
+     * Apply the famous standard wrap to content. I don't have any idea if this works
      *
      * @param string $content Rendered HTML content
      * @param array $conf Configuration array
