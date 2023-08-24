@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  League\Plates\Engine:
+    autowire: true
+
+  TYPO3Plates\ContentObject\PlatesContentObject:
+    tags:
+      - name: frontend.contentobject
+        identifier: "PLATESTEMPLATE"
+

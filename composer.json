@@ -1,0 +1,34 @@
+{
+    "name": "thefullsnackdev/t3-plates",
+    "description": "Integration of Plates template system for TYPO3",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "type": "typo3-cms-extension",
+    "license": "GPL-3.0-only",
+	"version": "0.1.0",
+    "authors": [
+        {
+            "name": "Max Frerichs",
+            "email": "typo3@maxfrerichs.dev"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^11.5 || ^12.4",
+        "league/plates": "3.*"
+    },
+	"require-dev": {
+        "phpunit/phpunit": "^9",
+        "typo3/coding-standards": "^0.5.3",
+        "friendsofphp/php-cs-fixer": "^3.13.0"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3_plates"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "TYPO3Plates\\": "Classes"
+        }
+    }
+}
