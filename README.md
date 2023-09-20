@@ -6,7 +6,8 @@ Plates is a native template system for PHP. It's fast, easy to use and you don't
 
 ## About this extension
 
-Tired of using Fluid? You don't even know what Fluid is? You're too lazy to learn You prefer native PHP templates? I've got you covered!
+Tired of using Fluid (even if it's great)? You don't even know what Fluid is? You're too lazy to learn it? You like to try out new stuff, just like me? I've got you covered!
+
 This extension that allows you to use the [Plates](http://platesphp.com/) inside TYPO3 (almost, I swear) the same way as you can
 work with Fluid inside TYPO3.
 
